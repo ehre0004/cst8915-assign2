@@ -95,6 +95,7 @@ Here is a table of the docker images for services I created:
 | ---------------- | ----------------------------------------------------------------------------------------------------- |
 | Ai-Service       | [rmaehret/assign2-ai](https://hub.docker.com/repository/docker/rmaehret/assign2-ai)                   |
 | Makeline-Service | [rmaehret/assign2-makeline](https://hub.docker.com/repository/docker/rmaehret/assign2-makeline)       |
+| Order-Service    | [rmaehret/assign2-order](https://hub.docker.com/repository/docker/rmaehret/assign2-order)             |
 | Product-Service  | [rmaehret/assign2-product](https://hub.docker.com/repository/docker/rmaehret/assign2-product)         |
 | Store-Admin      | [rmaehret/assign2-store-admin](https://hub.docker.com/repository/docker/rmaehret/assign2-store-admin) |
 | Store-Front      | [rmaehret/assign2-store-front](https://hub.docker.com/repository/docker/rmaehret/assign2-store-front) |
