@@ -52,7 +52,7 @@ The Store front and Store admin both have external IP addresses exposed through 
     az aks get-credentials --resource-group cst8915-assign2 --name assign2cluster --overwrite-existing
     ```
 
-6. Run the following commands:
+6. Amend `secrets.yaml` and `aps-all-in-one.yaml` to include your API key (secrets, `OPENAI_API_KEY`) and Azure openai endpoint (aps-all-in-one, `AZURE_OPENAI_ENDPOINT`). Dall-e-3's endpoint should be the same. For the deployment names, it should match the names from the deployment on Azure. Run the following commands:
 
     ```console
     kubectl apply -f secrets.yaml
